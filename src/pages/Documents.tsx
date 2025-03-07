@@ -5,7 +5,7 @@ import Sidebar from '@/components/layout/Sidebar';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui-components/Card';
 import { Badge } from '@/components/ui-components/Badge';
 import { Button } from '@/components/ui-components/Button';
-import { Plus, Search, Filter, FileText, FilePdf, FileImage, FileBox, Download, FileUp, ArrowDownUp } from 'lucide-react';
+import { Plus, Search, Filter, FileText, File, Image, FileBox, Download, FileUp, ArrowDownUp } from 'lucide-react';
 
 const Documents: React.FC = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -20,7 +20,7 @@ const Documents: React.FC = () => {
       related: "Main Property",
       uploadDate: "2019-06-10",
       size: "3.5 MB",
-      icon: FilePdf,
+      icon: File,
     },
     {
       id: '2',
@@ -30,7 +30,7 @@ const Documents: React.FC = () => {
       related: "Refrigerator",
       uploadDate: "2020-03-15",
       size: "2.1 MB",
-      icon: FilePdf,
+      icon: File,
     },
     {
       id: '3',
@@ -40,7 +40,7 @@ const Documents: React.FC = () => {
       related: "Samsung Smart TV",
       uploadDate: "2021-11-25",
       size: "1.2 MB",
-      icon: FilePdf,
+      icon: File,
     },
     {
       id: '4',
@@ -50,7 +50,7 @@ const Documents: React.FC = () => {
       related: "Toyota Camry",
       uploadDate: "2020-09-05",
       size: "1.8 MB",
-      icon: FilePdf,
+      icon: File,
     },
     {
       id: '5',
@@ -60,7 +60,7 @@ const Documents: React.FC = () => {
       related: "Main Property",
       uploadDate: "2019-06-01",
       size: "5.3 MB",
-      icon: FilePdf,
+      icon: File,
     },
     {
       id: '6',
@@ -70,7 +70,7 @@ const Documents: React.FC = () => {
       related: "Main Property",
       uploadDate: "2022-03-15",
       size: "2.8 MB",
-      icon: FileImage,
+      icon: Image,
     },
     {
       id: '7',
@@ -80,7 +80,7 @@ const Documents: React.FC = () => {
       related: "Main Property",
       uploadDate: "2022-01-10",
       size: "1.5 MB",
-      icon: FilePdf,
+      icon: File,
     },
     {
       id: '8',
@@ -90,7 +90,7 @@ const Documents: React.FC = () => {
       related: "Main Property",
       uploadDate: "2022-01-02",
       size: "3.2 MB",
-      icon: FilePdf,
+      icon: File,
     },
     {
       id: '9',
@@ -100,7 +100,7 @@ const Documents: React.FC = () => {
       related: "Main Property",
       uploadDate: "2022-04-10",
       size: "0.9 MB",
-      icon: FilePdf,
+      icon: File,
     },
     {
       id: '10',
@@ -110,7 +110,7 @@ const Documents: React.FC = () => {
       related: "Main Property",
       uploadDate: "2021-09-15",
       size: "4.7 MB",
-      icon: FilePdf,
+      icon: File,
     },
   ];
 
